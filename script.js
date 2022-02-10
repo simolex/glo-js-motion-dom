@@ -27,5 +27,3 @@ const bookContentSix = bookList[2].querySelectorAll("ul>li");
 const newContent = document.createElement("li");
 newContent.textContent = "Глава 8: За пределами ES6";
 bookContentSix[8].after(newContent);
-
-//bookList
